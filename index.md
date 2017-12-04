@@ -51,6 +51,21 @@ from a remote repository which has some of them:
 <script type="text/javascript" src="https://asciinema.org/a/150961.js"
 id="asciicast-150961" async></script>
 
+# Initializing parent repository's submodules
+
+#### What happens in git
+
+When user clones or update a git repository which holds other git repositories
+within it (through the git submodules feature) using the default commands (i.e.
+without any flags for also initializing submodules) such as
+
+    $ git clone git@github.com:user/gitrepo
+
+the inner repositories appear as if they were empty.
+
+<script type="text/javascript" src="https://asciinema.org/a/150977.js"
+id="asciicast-150977" async></script>
+
 [git]: http://git-scm.com/
 [gitless]: http://gitless.com
 [so-q-add-empty-dir]: https://stackoverflow.com/questions/115983
