@@ -101,6 +101,16 @@ initialized or updated. A simple
 should lead to an initialized git repository including all their submodules'
 up-to-date contents.
 
+---
+
+**External resources**
+
+- Implementation for tracking empty directories in gitless:
+  [gitless/#157][gl-pr-157]
+- Discussion for implementing submodules management in gitless:
+  [gitless/#56][gl-56]
+- Presentation (brazilian portuguese only): [slides][slides]
+
 [git]: http://git-scm.com/
 [gitless]: http://gitless.com
 [so-q-add-empty-dir]: https://stackoverflow.com/questions/115983
@@ -108,3 +118,4 @@ up-to-date contents.
 [gl-56]: https://github.com/sdg-mit/gitless/issues/56
 [so-git-submodules]: https://stackoverflow.com/questions/tagged/git-submodules
 [so-git-clone-including-submodules]: https://stackoverflow.com/questions/3796927
+[slides]: https://docs.google.com/presentation/d/1qAFyQ7cxdlqmLATt9NWTt0kXzmmwnPYnfEHS4946DgI/edit?usp=sharing
