@@ -1,3 +1,9 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+# Gitless stuff from other (code) branches
+build/
+dist/
+gitless.egg-info/
+gitless/
