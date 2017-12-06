@@ -98,8 +98,11 @@ initialized or updated. A simple
     $ mkdir gitrepo && cd gitrepo
     $ gl init gitrepo
 
-should lead to an initialized git repository including all their submodules'
+leads to an initialized git repository including all their submodules'
 up-to-date contents.
+
+<script type="text/javascript" src="https://asciinema.org/a/151326.js"
+id="asciicast-151326" async></script>
 
 ---
 
