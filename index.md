@@ -89,8 +89,8 @@ id="asciicast-150977" async></script>
 
 #### What may happen in gitless
 
-*Note: these modifications are undergoing design. Refer to [gitless/#56][gl-56]
-for more info.*
+*Note: these modifications are undergoing design and implementation. Refer to
+[gitless/#56][gl-56] and [gitless/#159][gl-pr-159] for more info.*
 
 Submodules are initialized by default when the repository including them is
 initialized or updated. A simple
@@ -109,12 +109,15 @@ up-to-date contents.
   [gitless/#157][gl-pr-157]
 - Discussion for implementing submodules management in gitless:
   [gitless/#56][gl-56]
+- Implementation for initializing parent repository's submodules:
+  [gitless/#159][gl-pr-159]
 - Presentation (brazilian portuguese only): [slides][slides]
 
 [git]: http://git-scm.com/
 [gitless]: http://gitless.com
 [so-q-add-empty-dir]: https://stackoverflow.com/questions/115983
 [gl-pr-157]: https://github.com/sdg-mit/gitless/pull/157
+[gl-pr-159]: https://github.com/sdg-mit/gitless/pull/159
 [gl-56]: https://github.com/sdg-mit/gitless/issues/56
 [so-git-submodules]: https://stackoverflow.com/questions/tagged/git-submodules
 [so-git-clone-including-submodules]: https://stackoverflow.com/questions/3796927
